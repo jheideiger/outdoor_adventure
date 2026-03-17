@@ -59,11 +59,13 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
 .menu {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
+
 .liste {
   display: flex;
   gap: 25px;
