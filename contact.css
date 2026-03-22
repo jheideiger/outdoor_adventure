@@ -108,6 +108,7 @@ footer p {
   max-width: 900px;
   opacity: 0.9;
 }
+
 @media (max-width: 768px) {
 
   .main {
@@ -128,21 +129,21 @@ footer p {
     gap: 15px;
   }
 
-@media (max-width: 480px) {
+  @media (max-width: 480px) {
 
-  .hero {
-    padding: 20px;
-  }
+    .hero {
+      padding: 20px;
+    }
 
-  .home-titre {
-    font-size: 30px;
-  }
+    .home-titre {
+      font-size: 30px;
+    }
 
-  .home {
-    font-size: 18px;
-  }
+    .home {
+      font-size: 18px;
+    }
 
-  .liste {
-    flex-direction: column;
-    gap: 10px;
-  }
+    .liste {
+      flex-direction: column;
+      gap: 10px;
+    }
