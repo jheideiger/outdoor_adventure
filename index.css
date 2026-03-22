@@ -254,3 +254,108 @@ button {
   margin: 10px 0;
   line-height: 160%;
 }
+
+.footer a {
+  color: #fb2056;
+}
+
+@media (max-width: 768px) {
+
+  .main {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .liste {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .home-titre {
+    font-size: 42px;
+  }
+
+  .quote-texte {
+    width: 90%;
+  }
+
+  .upcoming-events {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .events-titre {
+    grid-column: 1 / 2;
+  }
+
+  .tours {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .explore {
+    justify-content: center;
+    padding: 60px 30px;
+  }
+
+  .explore-content {
+    width: 100%;
+  }
+
+  .explore-titre {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero {
+    padding: 20px;
+  }
+
+  .home-titre {
+    font-size: 30px;
+  }
+
+  .home {
+    font-size: 18px;
+  }
+
+  .liste {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .quote-block {
+    padding: 20px;
+  }
+
+  .quote-texte {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .tours-gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .upcoming-events,
+  .tours {
+    padding: 30px 15px;
+    gap: 25px;
+  }
+
+  .footer {
+    padding: 30px 15px;
+    font-size: 13px;
+  }
+}
